@@ -3,7 +3,7 @@ header
     width: auto;
     height: 200px;
     background-color: green;
-    font-colour: black
+    color: black
 }
 header h1
 {
@@ -36,7 +36,57 @@ div.pagebreak
     width: 100%;
     height: 30px;
     border: 10px solid black;
-
-
-
+}
+.bubble_nav
+{
+  margin: 35px 0 50px;
+    text-align: center;
+}
+.bubble_slide
+{
+    display: inline-block;
+    margin: 0 2% 30px;
+    vertical-align: top;
+    width: auto;
+    max-width: 200px;
+}
+.bubble_profile
+{
+    display : inline-block;
+    text-decoration: none;
+    height: 180px;
+}
+.bubble_image
+{
+    border-radius: 135px;
+    display: block;
+    height: 135px;
+    width: 135px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+div.contact_box {
+    width: 100%;
+    height: 100px;
+    border: 10px solid black;
+}
+/*#contact_box div
+{
+    float: left;
+    width: 40%;
+    margin: 1em
+}*/
+/*div.fb_like
+{
+    float: right;
+}*/
+.facebook_box
+{
+    height: 50%;
+    width: 30%;
+    float: right;
+    background-color: #25a5a7;
+    border: thin black;
 }

@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Great Barrier Reef Orchestra</title>
+    <title> Barrier Reef Orchestra</title>
     <link rel="stylesheet" type="text/css" href="mainstlyles.css"/>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <header><img class="img-circle" src="images/logogreenbackground.png" alt="Logo"/>
-    <h1>Great Barrier Reef Orchestra</h1>
+    <h1> Barrier Reef Orchestra</h1>
 </header>
 <section>
     <h1>About Us</h1>
@@ -17,7 +25,53 @@
 </section>
 <div class="pagebreak"></div>
 <nav>
-
+<ul class="bubble_nav">
+    <li class="bubble_slide">
+        <a class="bubble_profile" href="general.html">
+            <figure class="bubble_image">
+                <img alt="General Information" src="">
+            </figure>
+            <span>General Information</span>
+        </a>
+    </li>
+    <li class="bubble_slide">
+        <a class="bubble_profile" href="people.html">
+            <figure class="bubble_image">
+                <img alt="People" src="">
+            </figure>
+            <span>People</span>
+        </a>
+    </li>
+    <li class="bubble_slide">
+        <a class="bubble_profile" href="events.html">
+            <figure class="bubble_image">
+                <img alt="Events" src="">
+            </figure>
+            <span>Events/Concerts</span>
+        </a>
+    </li>
+    <li class="bubble_slide">
+        <a class="bubble_profile" href="gallery.html">
+            <figure class="bubble_image">
+                <img alt="Photo Gallery" src="">
+            </figure>
+            <span>Photo Gallery</span>
+        </a>
+    </li>
+</ul>
 </nav>
+<div class="contact_box">
+<div class="contact">
+    <p><h4>Contact Us:</h4></p>
+    <p>Phone:</p>
+    <p>Address:</p>
+    <p>Email:</p>
+</div>
+    <div class="facebook_box">
+        <p>Like us On facebook</p>
+    <div class="fb-like" data-href="https://www.facebook.com/nqorchestra" data-layout="standard" data-action="like" data-show-faces="true" data-share="false">
+    </div>
+    </div>
+</div>
 </body>
 </html>
