@@ -1,3 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Contact Form</title>
+</head>
+
 <?php
  
 if(isset($_POST['email'])) {
@@ -11,9 +19,7 @@ if(isset($_POST['email'])) {
     $email_subject = "Your email subject line";
  
      
- 
-     
- 
+	 
     function died($error) {
  
         // your error code can go here
@@ -135,3 +141,4 @@ Thank you for contacting us. We will be in touch with you very soon.
 }
  
 ?>
+</html></
