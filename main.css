@@ -47,9 +47,13 @@ h1 {
 	
 }
 
+h2{
+	text-align:left;
+}
+
 table {
 	 border:none none ridge none;
-	 padding-left:400px;
+
 }
 
 a {
