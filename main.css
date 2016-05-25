@@ -1,7 +1,6 @@
 
 }
 .button{
-    align-self: center;
     width: 150px;
     padding: 10px;
     background-color: #565656;
@@ -167,5 +166,7 @@ a:hover{
 a.active{
     background: #111;
 }
-a{
+p{
+    display: block;
+    color: white;
 }
