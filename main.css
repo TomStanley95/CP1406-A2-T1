@@ -1,14 +1,31 @@
+.img-expand{
+    width: 690px;
+}
+@media (min-width: 768px) {
+    .img-expand {
+        width: 700px;
+    }
+}
+@media (min-width: 992px) {
+    .img-expand{
+        width: 900px;
+    }
+}
+@media (min-width: 1200px) {
+    .img-expand {
+        width: 1100px;
+    }
 header
 {
     width: auto;
     height: 200px;
-    background-color: green;
+    background-color: white;
     color: black
 }
-header h1
+nav h1
 {
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
     font-size: 80px;
 }
 
@@ -21,12 +38,9 @@ header h1
 
 }
 
-.img-circle
-{
-    border-radius: 50%;
+.img-circle {
     float: left;
-    padding-top: 20px;
-    padding-left: 20px;
+    margin: 0 10px 10px 10px ;
 }
 section
 {
@@ -94,40 +108,40 @@ div.contact_box {
     background-color: #25a5a7;
     border: thin black;
 }
-.navbar
-{
-    width: 100%;
-    height: 50px;
-    background: #00ffcc ;
-    text-align: center;
-    position: static;
+/*.navbar*/
+/*{*/
+    /*width: 100%;*/
+    /*height: 50px;*/
+    /*background: #00ffcc ;*/
+    /*text-align: center;*/
+    /*position: static;*/
 
 
-}
-.navbar li
-{
-    list-style: none;
-    margin: 5px;
-    display: inline;
-    width: 30%;
+/*}*/
+/*.navbar li*/
+/*{*/
+    /*list-style: none;*/
+    /*margin: 5px;*/
+    /*display: inline;*/
+    /*width: 30%;*/
 
-}
-.current
-{
-background-color: white;
-}
-.navbar a
-{
-    font-weight: bold;
-    background: transparent;
-    outline: none;
-    text-decoration: none;
-    text-align: center;
-    height: 25px;
-    width: 30%;
-    border: solid thin black;
+/*}*/
+/*.current*/
+/*{*/
+/*background-color: white;*/
+/*}*/
+/*.navbar a*/
+/*{*/
+    /*font-weight: bold;*/
+    /*background: transparent;*/
+    /*outline: none;*/
+    /*text-decoration: none;*/
+    /*text-align: center;*/
+    /*height: 25px;*/
+    /*width: 30%;*/
+    /*border: solid thin black;*/
 
-}
+/*}*/
 a:hover
 {
     background-color: white;
