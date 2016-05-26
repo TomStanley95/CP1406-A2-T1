@@ -8,7 +8,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Own style sheet-->
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,7 +19,9 @@
 <body>
 <header class="panel-header-home">
     <div class="header-img-box">
+        <a href="index.html">
         <img class="img-circle" src="img/logo.jpg" alt="Logo"/>
+        </a>
     </div>
     <div class="header-content-box">
         <h1>Barrier Reef Orchestra</h1>
@@ -49,12 +51,13 @@
             <div class="panel-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <img class="img-expand" src="img/news.jpg" >
+                        <img class="img-expand" src="img/news.jpg" alt="News" >
                     </a>
                 </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
+                    <h1>Most Recent</h1>
                     <p>As you travel the globe one of the standout features of so many different
                         countries is undoubtedly their music. This concert saves on the shoe leather
                         and brings an eclectic mix of music from all over the world to Townsville.
@@ -72,7 +75,7 @@
             <div class="panel-heading" role="tab" id="headingThree">
                 <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <img class="img-expand" src="img/history.jpg" >
+                        <img class="img-expand" src="img/history.jpg" alt="History" >
                     </a>
                 </h4>
             </div>
@@ -114,24 +117,83 @@
 </div>
 </div>
 </div>
+<div id="formScreen">
+    <a href="#" class="cancel">&times;</a>
+    <br>
+    <p>First Name: <br>
+        <input type="text" name="firstname">
+        <br>
+        Last name <br>
+        <input type="text" name = "lastname">
+        <br>
+        Address <br>
+        <input type="text" name = "address">
+        <br>
+        Phone Number <br>
+        <input type="number" name = "phone">
+        <br>
+        I am interested in: <br>
+        Playing Orchestra
+        <input type="checkbox" name= "play">
+        Administration
+        <input type="checkbox" name= "play">
+        <br>
+        Player Support
+        <input type="checkbox" name= "play">
+        fundraising
+        <input type="checkbox" name= "play">
+        <br>
+        Marketing
+        <input type="checkbox" name= "play">
+        Sponsorship
+        <input type="checkbox" name= "play">
+        <br>
+        Desktop Publishing
+        <input type="checkbox" name= "play">
+    </p>
+</div>
+
+<div id="cover" ></div>
+
+<div id="formScreen2">
+    <a href="#" class="cancel">&times;</a>
+    <br>
+    <p>First Name: <br>
+        <input type="text" name="firstname">
+        <br>
+        Last name <br>
+        <input type="text" name = "lastname">
+        <br>
+        Email  <br>
+        <input type="text" name="email">
+        <br>
+        Contact Number <br>
+        <input type="number" name="phone">
+    </p>
+</div>
+
+<div id="covertwo" ></div>
+
 <footer>
     <div class="panel-footer">
         <div class="col-md-2 col-md-offset-1">
-            <img class="img-circle" src="img/logo.jpg">
+            <a href="index.html">
+            <img class="img-circle" src="img/logo.jpg" alt="Logo">
+            </a>
         </div>
         <div class="col-md-4 col-md-offset-1">
             <ul class="text-center" style="list-style-type: none">
                 <li>
-                    <a class="btn btn-default" href="" role="button">Join Us</a>
+                    <a class="btn btn-default" href="#formScreen" role="button">Join Us</a>
                 </li>
                 <li>
-                    <a class="btn btn-default" href="" role="button">Become a benefactor</a>
+                    <a class="btn btn-default" href="#formScreen2" role="button">Become a benefactor</a>
                 </li>
             </ul>
         </div>
         <div class="col-md-1 col-md-offset-2">
-            <a href="contactus">
-                <img src="img/fblogo.png">
+            <a href="contactus.html">
+                <img src="img/fblogo.png" alt="Facebook Logo">
             </a>
         </div>
     </div>

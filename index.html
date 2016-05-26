@@ -8,7 +8,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Own style sheet-->
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -75,33 +75,90 @@
         </a>
     </li>
     <li class="bubble_slide">
-        <a class="bubble_profile" href="people.html">
+        <a class="bubble_profile" href="contactus.html">
             <figure class="bubble_image">
-                <img alt="People" src="img/icon_1.jpg">
+                <img alt="Contact Us" src="img/icon_5.jpg">
             </figure>
             <span>Contact Us</span>
         </a>
     </li>
 </ul>
 </nav>
+<div id="formScreen">
+    <a href="#" class="cancel">&times;</a>
+    <br>
+    <p>First Name: <br>
+        <input type="text" name="firstname">
+        <br>
+        Last name <br>
+        <input type="text" name = "lastname">
+        <br>
+        Address <br>
+        <input type="text" name = "address">
+        <br>
+        Phone Number <br>
+        <input type="number" name = "phone">
+        <br>
+        I am interested in: <br>
+        Playing Orchestra
+        <input type="checkbox" name= "play">
+        Administration
+        <input type="checkbox" name= "play">
+        <br>
+        Player Support
+        <input type="checkbox" name= "play">
+        fundraising
+        <input type="checkbox" name= "play">
+        <br>
+        Marketing
+        <input type="checkbox" name= "play">
+        Sponsorship
+        <input type="checkbox" name= "play">
+        <br>
+        Desktop Publishing
+        <input type="checkbox" name= "play">
+    </p>
+</div>
+
+<div id="cover" ></div>
+
+<div id="formScreen2">
+    <a href="#" class="cancel">&times;</a>
+    <br>
+    <p>First Name: <br>
+        <input type="text" name="firstname">
+        <br>
+        Last name <br>
+        <input type="text" name = "lastname">
+        <br>
+        Email  <br>
+        <input type="text" name="email">
+        <br>
+        Contact Number <br>
+        <input type="number" name="phone">
+    </p>
+</div>
+
+<div id="covertwo" ></div>
+
 <footer>
-    <div class="panel-footer-fixed" >
+    <div class="panel-footer-fixed">
         <div class="col-md-2 col-md-offset-1">
-            <img  class="img-circle" src="img/logo.jpg">
+            <img class="img-circle" src="img/logo.jpg" alt="Logo">
         </div>
         <div class="col-md-4 col-md-offset-1">
             <ul class="text-center" style="list-style-type: none">
                 <li>
-                    <a class="btn btn-default" href="" role="button">Join Us</a>
+                    <a class="btn btn-default" href="#formScreen" role="button">Join Us</a>
                 </li>
                 <li>
-                    <a class="btn btn-default" href="" role="button">Become a benefactor</a>
+                    <a class="btn btn-default" href="#formScreen2" role="button">Become a benefactor</a>
                 </li>
             </ul>
         </div>
         <div class="col-md-1 col-md-offset-2">
-            <a href="contactus">
-                <img src="img/fblogo.png">
+            <a href="contactus.html">
+                <img src="img/fblogo.png" alt="Facebook Logo">
             </a>
         </div>
     </div>

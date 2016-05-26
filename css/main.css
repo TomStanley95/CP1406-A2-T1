@@ -1,0 +1,396 @@
+/*Tom Stanley's CSS begins here*/
+.img-expand{
+    width: 690px;
+}
+@media (min-width: 768px) {
+    .img-expand {
+        width: 700px;
+    }
+}
+@media (min-width: 992px) {
+    .img-expand{
+        width: 900px;
+    }
+}
+@media (min-width: 1200px) {
+    .img-expand {
+        width: 1100px;
+    }
+}
+.panel-footer-fixed {
+    padding: 10px 15px;
+    background-color:#3C5499 ;
+    border-top: 1px solid #ddd;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 200px;
+    width: 100%;
+    position:fixed; bottom:0;
+
+    }
+.panel-footer-fixed li,.panel-footer li
+{
+    padding-top: 5%;
+
+}
+.panel-footer-fixed img,.panel-footer img
+{
+    border: thin solid white;
+    border-radius: 10px;
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color:#3C5499 ;
+    border-top: 1px solid #ddd;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 200px;
+    width: 100%;
+
+}
+header
+{
+    width: auto;
+    height: 200px;
+    background-color: white;
+    color: black
+}
+header h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 80px;
+}
+nav h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 80px;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font: normal 100% Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+.img-circle {
+    float: left;
+    margin: 0 10px 10px 10px ;
+}
+section
+{
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+    height: auto;
+}
+.carousel-caption p {
+    font-size: large;
+}
+.bubble_nav
+{
+    margin: 35px 0 50px;
+    text-align: center;
+}
+.bubble_slide
+{
+    display: inline-block;
+    margin: 0 2% 30px;
+    vertical-align: top;
+    width: auto;
+    max-width: 200px;
+}
+.bubble_profile
+{
+    display : inline-block;
+    text-decoration: none;
+    height: 180px;
+}
+.bubble_image
+{
+    border-radius: 135px;
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.color-primary-0 { color: #142D76 }
+.color-primary-1 { color: #3C5499 }
+.color-primary-2 { color: #213C8F }
+.color-primary-3 { color: #0A2062 }
+.color-primary-4 { color: #051648 }
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.panel-header-home{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 200px;
+    background-color:#3C5499 ;
+
+}
+.header-img-box
+{
+    height: inherit;
+    width: 30%;
+    display: inline;
+
+}
+.header-content-box
+{
+    height: inherit;
+    width: 60%;
+    display: inline;
+
+}
+.header-content-box h1
+{
+    padding-top: 60px;
+}
+.about
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.navbar-default{
+    background-color:#3C5499 ;
+    border:none;
+}
+.navbar-static-top{
+    top: 0px;
+}
+
+.nav-box
+{
+    width: 50%;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+.navbar-default li{
+    border: solid thin white;
+    border-radius: 4px;
+    margin: 5px;
+
+    background-color: #2aabd2;
+}
+.navbar-default li a{
+    color: white;
+}
+.navbar-default li a:hover {
+    background-color: #0A2062;
+}
+
+.panel-group
+{
+    margin-top: 10%;
+    margin-bottom: 10%
+}
+/*
+Braydons CSS begins here*/
+.button {
+    width: 150px;
+    padding: 10px;
+    background-color: #565656;
+    box-shadow: -8px 0px 10px 3px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-decoration: none;
+}
+#cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+#covertwo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+#formScreen2{
+    height: 380px;
+    width: 340px;
+    position: relative;
+    z-index: 10;
+    display: none;
+    border: 5px solid #cccccc;
+    border-radius: 10px;
+}
+#formScreen{
+    height: 380px;
+    width: 340px;
+    position: relative;
+    z-index: 10;
+    display: none;
+    border: 5px solid #cccccc;
+    border-radius: 10px;
+    background-color: #0A2062;
+    color: white;
+    margin: 40%;
+}
+#formScreen:target, #formScreen:target + #cover{
+    display:block;
+    opacity: 2;
+}
+.cancel{
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    background: rgb(245,245,245);
+    color: black;
+    height: 30px;
+    width: 35px;
+    font-size: 30px;
+    text-decoration:none;
+    text-align: center;
+    font-weight: bold;
+}
+.container-braydon{
+    position: fixed;
+    top: 100px;
+    left: 40%;
+    width:400px;
+    height:600px;
+    padding:20px;
+    border:1px solid gray;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background: black;
+}
+.slider_wrapper{
+    overflow: hidden;
+    position:relative;
+    height:500px;
+    top:auto;
+}
+#image_slider{
+
+    position: relative;
+    height: auto;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    padding:0px;
+    margin:0px;
+}
+#image_slider li{
+    position: relative;
+    float: left;
+}
+.nvgt{
+    position:absolute;
+    top: 120px;
+    height: 50px;
+    width: 30px;
+    opacity: 0.6;
+}
+.nvgt:hover{
+    opacity: 0.9;
+}
+#prev{
+    background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+    left: 0px;
+}
+#next{
+    background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+    right: 0px;
+}
+li p {
+    font-size:34px;
+    color:#FFFFFF;
+    text-align:center;
+    display: block;
+    padding: 0px 16px;
+    text-decoration: none;
+    position:fixed;
+    left:45%;
+}
+/*
+Tom Uren's CSS begins here*/
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 2%;
+
+}
+
+.lightbox:target {
+    outline: none;
+    display: block;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
