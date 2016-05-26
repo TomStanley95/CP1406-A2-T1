@@ -17,18 +17,22 @@
     <![endif]-->
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div>
-            <img class="img-circle" src="img/logo.jpg" alt="Logo"/>
-            <h1> Barrier Reef Orchestra</h1>
-        </div>
+<header class="panel-header-home">
+    <div class="header-img-box">
+        <img class="img-circle" src="img/logo.jpg" alt="Logo"/>
+    </div>
+    <div class="header-content-box">
+        <h1>Barrier Reef Orchestra</h1>
+    </div>
+    <div class="nav-box">
+    <nav class="navbar navbar-default navbar-static-top">
+
         <div class ="container">
             <ul class="nav nav-pills" style="float: left">
                 <li><a href=index.html>Home</a></li>
                 <li class="active"><a href="general.html">General Information</a></li>
                 <li><a href="">People</a></li>
-                <li><a href=events.html>Events/Concerts</a></li>
+                <li><a href=events.html>Events</a></li>
                 <li><a href="">Photo Gallery</a></li>
             </ul>
             <ul class="nav nav-pills  " style="float: right">
@@ -36,28 +40,11 @@
             </ul>
         </div>
     </nav>
+    </div>
 </header>
+
 <div class="container">
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <img class="img-expand" src="img/about.jpg">
-                    </a>
-                </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                    <p>We are a community orchestra, drawing players from a large cross section of the Townsville
-                    community and sometimes beyond. All are drawn together by their great love of orchestral music
-                    and desire to provide North Queensland with quality performances. Depending on the program up to
-                    50 musicians play a wide ranging repertoire which has included some of the great orchestral compositions
-                    such as the New World Symphony by Dvorak and most of the Beethoven symphonies as well as Tchaikovsky and Bizet.
-                    </p>
-                </div>
-            </div>
-        </div>
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title">
@@ -125,6 +112,30 @@
             </div>
     </div>
 </div>
+</div>
+</div>
+<footer>
+    <div class="panel-footer">
+        <div class="col-md-2 col-md-offset-1">
+            <img class="img-circle" src="img/logo.jpg">
+        </div>
+        <div class="col-md-4 col-md-offset-1">
+            <ul class="text-center" style="list-style-type: none">
+                <li>
+                    <a class="btn btn-default" href="" role="button">Join Us</a>
+                </li>
+                <li>
+                    <a class="btn btn-default" href="" role="button">Become a benefactor</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-1 col-md-offset-2">
+            <a href="contactus">
+                <img src="img/fblogo.png">
+            </a>
+        </div>
+    </div>
+</footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

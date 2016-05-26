@@ -15,6 +15,38 @@
     .img-expand {
         width: 1100px;
     }
+}
+.panel-footer-fixed {
+    padding: 10px 15px;
+    background-color:#3C5499 ;
+    border-top: 1px solid #ddd;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 200px;
+    width: 100%;
+    position:fixed; bottom:0;
+
+    }
+.panel-footer-fixed li,.panel-footer li
+{
+    padding-top: 5%;
+
+}
+.panel-footer-fixed img,.panel-footer img
+{
+    border: thin solid white;
+    border-radius: 10px;
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color:#3C5499 ;
+    border-top: 1px solid #ddd;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 200px;
+    width: 100%;
+
+}
 header
 {
     width: auto;
@@ -22,11 +54,18 @@ header
     background-color: white;
     color: black
 }
+header h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 80px;
+}
 nav h1
 {
     text-align: center;
     padding-bottom: 10px;
     font-size: 80px;
+
 }
 
 *
@@ -49,15 +88,12 @@ section
     margin: 10%;
     height: auto;
 }
-div.pagebreak
-{
-    width: 100%;
-    height: 30px;
-    border: 10px solid black;
+.carousel-caption p {
+    font-size: large;
 }
 .bubble_nav
 {
-  margin: 35px 0 50px;
+    margin: 35px 0 50px;
     text-align: center;
 }
 .bubble_slide
@@ -85,112 +121,93 @@ div.pagebreak
     position: relative;
     z-index: 2;
 }
-div.contact_box {
-    width: 100%;
-    height: 100px;
-    border: 10px solid black;
+.color-primary-0 { color: #142D76 }
+.color-primary-1 { color: #3C5499 }
+.color-primary-2 { color: #213C8F }
+.color-primary-3 { color: #0A2062 }
+.color-primary-4 { color: #051648 }
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
 }
-/*#contact_box div
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.panel-header-home{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 200px;
+    background-color:#3C5499 ;
+
+}
+.header-img-box
 {
-    float: left;
-    width: 40%;
-    margin: 1em
-}*/
-/*div.fb_like
-{
-    float: right;
-}*/
-.facebook_box
-{
-    height: 50%;
+    height: inherit;
     width: 30%;
-    float: right;
-    background-color: #25a5a7;
-    border: thin black;
+    display: inline;
+
 }
-/*.navbar*/
-/*{*/
-    /*width: 100%;*/
-    /*height: 50px;*/
-    /*background: #00ffcc ;*/
-    /*text-align: center;*/
-    /*position: static;*/
-
-
-/*}*/
-/*.navbar li*/
-/*{*/
-    /*list-style: none;*/
-    /*margin: 5px;*/
-    /*display: inline;*/
-    /*width: 30%;*/
-
-/*}*/
-/*.current*/
-/*{*/
-/*background-color: white;*/
-/*}*/
-/*.navbar a*/
-/*{*/
-    /*font-weight: bold;*/
-    /*background: transparent;*/
-    /*outline: none;*/
-    /*text-decoration: none;*/
-    /*text-align: center;*/
-    /*height: 25px;*/
-    /*width: 30%;*/
-    /*border: solid thin black;*/
-
-/*}*/
-a:hover
+.header-content-box
 {
-    background-color: white;
-}
-a
-{
-    font-weight: bold;
-    background: transparent;
-    outline: none;
-    text-decoration: none;
-    text-align: center;
-}
-.news
-{
-    height: 40%;
+    height: inherit;
     width: 60%;
-    background-color: aliceblue;
-    border: solid thin black;
-    margin: 5% 20% 5% 20%
+    display: inline;
+
 }
-.news  h1
+.header-content-box h1
 {
-    font: bold 150% Arial, Helvetica, sans-serif;
+    padding-top: 60px;
 }
-.news  h2
+.about
 {
-    font: bold 110% Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
 }
-.history
-{
-    height: 40%;
-    width: 95%;
-    background-color: aliceblue;
-    border: solid thin black;
-    margin: 2% 2% 2% 2%;
+
+.navbar-default{
+    background-color:#3C5499 ;
+    border:none;
 }
-.history h1
-{
-    font: bold 150% Arial, Helvetica, sans-serif;
+.navbar-static-top{
+    top: 0px;
 }
-.history h2
+
+.nav-box
 {
-    font: bold 110% Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 20%;
 }
-.lefttext
-{
-    text-align: left;
+.navbar-default li{
+    border: solid thin white;
+    border-radius: 4px;
+    margin: 5px;
 }
-.righttext
+.panel-group
 {
-    text-align: right;
+    margin-top: 10%;
+    margin-bottom: 10%
 }
